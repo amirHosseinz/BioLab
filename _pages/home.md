@@ -24,22 +24,22 @@ We are a dynamic research group at the [Sharif University of Technology](http://
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ relative_url }}images/slider/SmartTipSide.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/SmartTipSide.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ relative_url }}images/slider/NoiseCover2.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/NoiseCover2.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ relative_url }}images/slider/cake_web.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/cake_web.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ absolute_url }}images/slider/logos.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/logos.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ relative_url }}images/slider/tamagochi.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/tamagochi.jpg" alt="Slide 5" />
         </div>
         <div class="item">
-            <img src="{{ relative_url }}images/slider/Group2015_red.jpg" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/Group2015_red.jpg" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -65,6 +65,6 @@ We are located at Leiden University, the birthplace of superconductivity and hom
 We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
 
 <figure class="fourth" style="margin-top: 20px">
-  <img src="{{ relative_url }}images/logopic/Logo_SUT.png" style="width: 120px; height: 110px;">
-  <img src="{{ relative_url }}images/logopic/Logo_royan.jpg" style="width: 110px; height: 110px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_SUT.png" style="width: 120px; height: 110px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_royan.jpg" style="width: 110px; height: 110px;">
 </figure>
