@@ -33,5 +33,5 @@ If you are interested in pursuing a Master degree at Leiden University, see [mas
 
 
 <figure>
-<img src="{{ site.url | relative_url }}images/teampic/DSC_0696.jpg" width="95%">
+<img src="{{ "/" | relative_url }}images/teampic/DSC_0696.jpg" width="95%">
 </figure>
