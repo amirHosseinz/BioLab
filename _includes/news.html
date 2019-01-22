@@ -4,7 +4,13 @@
 
   {% for article in site.data.news limit:6 %}
   {{ article.date }}
-  <p><em>{{ article.headline }}</em></p>
+  <p><em>
+    {{ article.headline }}
+    {% if article.image_src %}
+      <img src='{{ site.url }}{{ site.baseurl }}{{article.image_src}}' class='img-responsive' style='max-width: 192px' />
+    {% endif %}
+  </em></p>
+
   {% endfor %}
 
   <h5>
